@@ -1,3 +1,5 @@
+# code :1
+
 class Solution(object):
     def arrangeCoins(self, n):
         """
@@ -22,7 +24,7 @@ class Solution(object):
 
 
 
-
+# code : 2
 
 
 class Solution(object):
