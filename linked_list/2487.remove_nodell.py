@@ -26,4 +26,6 @@ class Solution:
                 prev.next = curr.next
             curr = curr.next
 
+            
+
         return reverse(dummy.next)

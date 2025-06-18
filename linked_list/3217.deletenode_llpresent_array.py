@@ -11,7 +11,7 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        nums_set = set(nums)  # ✅ Faster lookups
+        nums_set = set(nums) 
 
         dummy = ListNode(0)
         tail = dummy

@@ -25,5 +25,5 @@ class Solution(object):
 
         # Delete middle node
         prev.next = slow.next
-
+    
         return head

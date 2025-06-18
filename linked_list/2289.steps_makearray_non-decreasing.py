@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        stack = []  # Each item is (num, steps)
+        stack = []  
         max_steps = 0
 
         for num in nums:
