@@ -4,7 +4,6 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        sign = -1 if x < 0 else 1
         x = abs(x)
         reversed_x = int(str(x)[::-1])  
         result = sign * reversed_x
