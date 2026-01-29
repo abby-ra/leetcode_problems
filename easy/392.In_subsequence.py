@@ -1,7 +1,15 @@
-class Solution:
-    def isSubsequence(self, s: str, t: str) -> bool:
-        i = 0  # pointer for s
-        for ch in t:
-            if i < len(s) and s[i] == ch:
-                i += 1
-        return i == len(s)  # True if all characters in s are found in order
+class Solution(object):
+    def isSubsequence(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        i = 0
+        j = 0
+
+        while i < len(s) and j < len(t):
+            if s[i] == t[j]:
+                i+=1
+            j+=1
+        return i == len(s)
