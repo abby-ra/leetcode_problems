@@ -12,4 +12,5 @@ def alpha_count(s):
 
 s = input("Enter a string: ")
 print(alpha_count(s))
-        
+    
+

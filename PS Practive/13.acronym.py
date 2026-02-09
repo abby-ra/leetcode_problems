@@ -5,7 +5,7 @@ def scronym(s,first):
     acron = ""
 
     for i in word:
-        acron += i[0].upper()
+        acron += i[0]
 
     if acron == first:
         return True

@@ -6,7 +6,7 @@ def good_bad_string(s):
     for char in s:
         if char not in freq:
             freq[char] = s.count(char)
-
+    
     freq_val = list(freq.values())
     freq_set = set(freq_val)
 
@@ -17,5 +17,3 @@ def good_bad_string(s):
     
 s = input("Enter a string: ")
 print(good_bad_string(s))
-
- 

@@ -1,10 +1,9 @@
 #Checking for Equal Number of Vowels in Both Halves of a String eg:helo output:helo has equal number of vowels in both halves of a string 
 
-
 def equal_vowel(s):
 
     vow = "aeiouAEIOU"
-    mid= len(s)//2
+    mid = len(s)//2
 
     frst = s[:mid]
     sec = s[mid:]

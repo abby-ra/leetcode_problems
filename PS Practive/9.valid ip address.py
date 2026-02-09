@@ -2,7 +2,7 @@
 
 def validIP(s):
     ip = s.split('.')
-
+    
     if len(ip) !=4:
         return False
     else:
