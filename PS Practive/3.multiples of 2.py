@@ -9,5 +9,5 @@ def pattern(n):
 
 
 
-n = int(input())
-print(pattern(n))
+n= int(input())
+pattern(n)

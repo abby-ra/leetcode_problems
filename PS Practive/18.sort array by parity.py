@@ -16,3 +16,4 @@ class Solution:
 
         A[:len(n+a)] = n+a
         return n+a
+

@@ -37,6 +37,5 @@ print("Compressed string is:", compress(word))
 #                 if count > 1:
 #                     res.extend(list(str(count)))
 
-
 #         chars[:len(res)] = res
 #         return len(res)
